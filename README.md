@@ -35,6 +35,21 @@ The processor is based on the **RISC-V RV32I instruction set architecture** and 
 | MEM | Data Memory Access |
 | WB | Write Back to Register File |
 
+# 📈 Performance Summary
+
+| Parameter | Result |
+|-----------|--------|
+| Architecture | RISC-V RV32I |
+| Processor Width | 32-bit |
+| Pipeline Stages | 5 |
+| HDL | Verilog |
+| Maximum Operating Frequency | **180.61 MHz** |
+| Minimum Clock Period | **5.537 ns** |
+| RTL Simulation | ✅ Passed |
+| Functional Verification | ✅ Passed |
+| Timing Analysis | ✅ Passed |
+| FPGA Compatible | ✅ Yes |
+
 # ✨ Features
 
 - 32-bit RISC-V Architecture
