@@ -21,6 +21,19 @@
 This project presents the design and implementation of a **32-bit RISC-V processor** based on a **5-stage pipelined architecture** using **Verilog HDL**. The processor executes RISC-V instructions through Instruction Fetch, Instruction Decode, Execute, Memory Access, and Write Back stages, improving instruction throughput while maintaining a modular hardware design suitable for FPGA implementation.
 
 ---
+# 🏛️ Processor Architecture
+
+The processor is based on the **RISC-V RV32I instruction set architecture** and implements a **5-stage pipelined datapath**. Each stage performs a dedicated operation, enabling multiple instructions to execute concurrently and improving overall throughput.
+
+### Pipeline Stages
+
+| Stage | Description |
+|-------|-------------|
+| IF | Instruction Fetch |
+| ID | Instruction Decode & Register Read |
+| EX | Execute / ALU Operations |
+| MEM | Data Memory Access |
+| WB | Write Back to Register File |
 
 # ✨ Features
 
