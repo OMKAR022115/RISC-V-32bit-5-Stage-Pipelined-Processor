@@ -46,7 +46,7 @@ The processor is based on the **RISC-V RV32I instruction set architecture** and 
 | Maximum Operating Frequency | **180.61 MHz** |
 | Minimum Clock Period | **5.537 ns** |
 | RTL Simulation | ✅ Passed |
-| Functional Verification | ✅ Passed |
+| Code Coverage Verification | ✅ Passed |
 | Timing Analysis | ✅ Passed |
 | FPGA Compatible | ✅ Yes |
 
